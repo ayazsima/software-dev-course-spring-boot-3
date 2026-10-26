@@ -17,8 +17,7 @@ public class Movie  {
     public Movie() {
     }
 
-    public Movie(int id, String name, String director, int year, int duration) {
-        this.id = id;
+    public Movie(String name, String director, int year, int duration) {
         this.name = name;
         this.year = year;
         this.director = director;

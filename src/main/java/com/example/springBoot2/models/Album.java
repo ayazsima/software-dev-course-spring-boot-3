@@ -19,7 +19,6 @@ public class Album {
     }
 
     public Album(int id, String name, String artist, int year, int tracks) {
-        this.id = id;
         this.name = name;
         this.year = year;
         this.artist = artist;
